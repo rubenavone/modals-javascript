@@ -162,7 +162,9 @@ body {
 }
 
 .news-letter-modal form section{
-    text-align: center;
+    align-items: center;
+    display: flex;
+flex-direction: column;
 }
 .news-letter-modal form section button{
     border: 1px solid gray;
@@ -183,7 +185,9 @@ body {
 .news-letter-modal section {
     padding: 0;
 }
-
+.news-letter-modal section img {
+    align-self: end;
+}
 .news-letter-modal section p {
     text-align: center;
 }
