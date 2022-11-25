@@ -13,13 +13,12 @@
 
 //Selecteur qui servira pour toutes les modale
 let globalModalSelector = document.querySelector(".modal");
-let crossSelector = document.querySelectorAll(".cross")
+let crossSelector = document.querySelectorAll(".cross");
 
 //EVENT pour tous
 crossSelector.forEach(function(cross){
     cross.addEventListener("click", function () {
         removeAll();
-
     })
 })
 
@@ -32,6 +31,7 @@ crossSelector.forEach(function(cross){
 
 let cookieBtnSelector = document.querySelector(".cookie");
 let cookieModalSelector = document.querySelector(".cookie-modal");
+
 //Function
 function cookieToggler() {
     cookieModalSelector.classList.toggle("d-none");
@@ -40,9 +40,7 @@ function cookieToggler() {
 //évenement
 cookieBtnSelector.addEventListener("click", function (e) {
     cookieToggler()
-
 })
-
 
 
 globalModalSelector.addEventListener("click", function (e) {

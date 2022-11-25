@@ -100,7 +100,6 @@ body {
 
 .modal-template aside {
     width: 35%;
-    height: 50vh;
     background-image: url("./img/cookie-modal/cookie_back.jpg");
     background-size: cover;
     position: relative;
