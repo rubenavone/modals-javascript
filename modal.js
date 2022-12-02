@@ -45,6 +45,7 @@ cookieBtnSelector.addEventListener("click", function (e) {
 
 globalModalSelector.addEventListener("click", function (e) {
     if (e.target !== this) {
+        console.log(e.target, this);
         return;
     }
     removeAll();
